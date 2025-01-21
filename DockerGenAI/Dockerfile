@@ -2,4 +2,4 @@ FROM python:3.9-slim
 WORKDIR /app
 COPY . /app
 RUN pip install google-generativeai
-CMD ["python", "TextFeelings.py"]
+CMD ["python", "Sentiment Analysis.py"]
